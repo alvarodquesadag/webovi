@@ -1,0 +1,48 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	background: green;
+	font-size: 30px;
+	color: blue;
+}
+
+
+
+
+h1 {
+	background: black;
+	
+	/*  */
+	color:rgba(205, 92, 60, 0.5);
+}
+
+h2 {
+	/*em es con relacion a body: 60px   */
+	font-size: 2em;
+}
+
+div{
+	/* 
+	position: relative;	
+	position: absolute; -- para una barra de herramientas o algo asi
+	*/
+	
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	right: ;
+	left: 50px ;
+
+	background: gray;
+	width: 50%;
+	/* margen externo */
+	margin:20px 20px;
+	padding: 10px;
+}
+
+
+
+
